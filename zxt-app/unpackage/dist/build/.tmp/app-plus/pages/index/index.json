@@ -1,0 +1,6 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "enterpanel": "/components/enter-panel/enter-panel"
+  }
+}

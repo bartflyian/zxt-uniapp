@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "学习中心",
+  "onReachBottomDistance": 30,
+  "usingComponents": {
+    "course": "/pages/learning/course/course",
+    "homework": "/pages/learning/homework/homework",
+    "worntopic": "/pages/learning/worngtopic/worngtopic"
+  }
+}

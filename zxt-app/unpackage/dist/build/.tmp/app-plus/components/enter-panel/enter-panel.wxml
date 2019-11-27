@@ -1,0 +1,1 @@
+<view class="enter-panel"><view class="panel-header" style="{{'background:'+(bgColor)+';'}}"><text class="title">{{panelTitle}}</text><text class="more">查看更多</text></view></view>

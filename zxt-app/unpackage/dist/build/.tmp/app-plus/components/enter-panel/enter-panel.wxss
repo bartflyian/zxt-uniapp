@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.enter-panel {
+  width: 686rpx;
+  height: 300rpx;
+  margin: 40rpx auto;
+  background: #fff;
+  border-radius: 10px;
+}
+.enter-panel .panel-header {
+    border-radius: 10px;
+    height: 100rpx;
+    color: #fff;
+}
+.enter-panel .panel-header .title {
+      font-size: 17px;
+      float: left;
+      margin: 26rpx 0rpx 0 40rpx;
+}
+.enter-panel .panel-header .more {
+      font-size: 13px;
+      float: right;
+      margin: 48rpx 40rpx 0 0;
+}
+

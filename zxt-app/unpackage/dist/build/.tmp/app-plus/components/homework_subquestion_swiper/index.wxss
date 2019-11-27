@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.subquestion-box {
+  height: 1200rpx;
+  margin-top: 60rpx;
+}
+.subquestion-box .subquestion-title {
+    overflow: hidden;
+    height: 100rpx;
+    background: #f5f6f8;
+    line-height: 100rpx;
+    padding: 0 32rpx;
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #323643;
+}
+.subquestion-box .subquestion-title .test-num {
+      float: left;
+}
+.subquestion-box .subquestion-title .test-current {
+      float: right;
+}
+.subquestion-box .subquestion-title .test-current .test-totalnum {
+        color: #878C9E;
+        font-size: 12px;
+}
+.subquestion-box .test-content {
+    padding: 0 32rpx;
+}
+.subquestion-box .test-content .question {
+      line-height: 36px;
+}
+.subquestion-box .test-content .options {
+      margin-top: 20rpx;
+}
+.subquestion-box .test-content .options .option {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+}
+.subquestion-box .test-content .options .option .option-num {
+          -webkit-flex-basis: 72rpx;
+              -ms-flex-preferred-size: 72rpx;
+                  flex-basis: 72rpx;
+          height: 72rpx;
+          background: white;
+          border: 2px solid #e5e9ef;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 68rpx;
+          margin: 0 32rpx 40rpx 0;
+}
+.subquestion-box .test-content .options .option .option-answer {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          line-height: 20px;
+          margin-top: 6px;
+}
+.subquestion-box .test-content .jieda-answer {
+      margin: 80rpx auto;
+}
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.btn {
+  margin: 0 auto;
+  width: 90%;
+  height: 100rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#f9d423), to(#ff794a));
+  background: -o-linear-gradient(left, #f9d423 0%, #ff794a 100%);
+  background: linear-gradient(90deg, #f9d423 0%, #ff794a 100%);
+  border-radius: 50rpx;
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+}
+

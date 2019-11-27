@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "answerinput": "/components/homework_answer_input/index"
+  },
+  "component": true
+}

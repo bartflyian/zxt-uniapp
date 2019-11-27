@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.course .subscribe {
+  padding: 30rpx 32rpx;
+}
+.course .subscribe .subs-li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 32rpx;
+}
+.course .subscribe .subs-li .course-img ._img {
+      width: 318rpx;
+      height: 182rpx;
+}
+.course .subscribe .subs-li .course-title {
+      font-size: 13px;
+      margin: 30rpx 0 0 31rpx;
+}
+.course .subscribe .subs-li .course-status {
+      margin-top: 50rpx;
+}
+.course .subscribe .subs-li .course-status .all-num {
+        background: #C6CBD4;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 50px;
+        padding: 3px 8px;
+}
+.course .subscribe .subs-li .course-status .have-learn {
+        font-size: 12px;
+        margin-left: 20rpx;
+        color: #C6CBD4;
+}
+.course .subscribe .subs-li .course-status .have-learn .num {
+          color: #FF794A;
+}
+

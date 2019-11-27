@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.homework-box {
+  font-family: PingFang-SC-Bold;
+  position: relative;
+  height: 100%;
+}
+.homework-box .navTitle {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 166rpx;
+    background: #fff;
+    left: 0;
+    z-index: 999;
+}
+.homework-box .navTitle .nav {
+      position: relative;
+      width: 50%;
+      float: left;
+      text-align: center;
+      font-size: 24rpx;
+      font-weight: bold;
+      color: #323643;
+      height: 88rpx;
+      line-height: 88rpx;
+}
+.homework-box .navTitle .nav .title {
+        position: relative;
+}
+.homework-box .navTitle .nav .title::before {
+          content: '';
+          position: absolute;
+          top: 12rpx;
+          right: -30rpx;
+          width: 0;
+          height: 0;
+          border-width: 10rpx;
+          border-style: solid;
+          border-color: #BEC3CD transparent transparent transparent;
+}
+.homework-box .navTitle .nav .title.current {
+          color: #FF7800;
+}
+.homework-box .navTitle .nav .title.current::before {
+            -webkit-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                    transform: rotate(180deg);
+            top: 0;
+            border-color: #FF7800 transparent transparent transparent;
+}
+.homework-box .select-box {
+    position: fixed;
+    pointer-events: auto;
+    top: 254rpx;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 999;
+}
+.homework-box .select-box .select-bg {
+      pointer-events: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(10, 10, 10, 0.5);
+}
+.homework-box .select-box .select-tab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      z-index: 1000;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 20rpx 32rpx;
+      font-size: 12px;
+      color: #323643;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+}
+.homework-box .select-box .select-tab .btn {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 20%;
+            -ms-flex: 0 0 20%;
+                flex: 0 0 20%;
+        text-align: center;
+        margin-bottom: 30rpx;
+}
+.homework-box .select-box .select-tab .btn .subject-btn, .homework-box .select-box .select-tab .btn .process-btn {
+          display: block;
+          width: 120rpx;
+          height: 60rpx;
+          line-height: 60rpx;
+}
+.homework-box .select-box .select-tab .btn.is-select .subject-btn, .homework-box .select-box .select-tab .btn.is-select .process-btn {
+          color: #fff;
+          background: -webkit-gradient(linear, left top, right top, from(#f9d423), to(#ff794a));
+          background: -o-linear-gradient(left, #f9d423 0%, #ff794a 100%);
+          background: linear-gradient(90deg, #f9d423 0%, #ff794a 100%);
+          border-radius: 30px;
+}
+.homework-box .homework-list {
+    width: 100%;
+    padding: 32rpx;
+    margin-top: 80rpx;
+    margin-bottom: 60rpx;
+}
+.homework-box .homework-list .homework-li {
+      width: 100%;
+      border-radius: 12px;
+      height: 185rpx;
+      -webkit-box-shadow: 0 0 12px 0px rgba(128, 128, 128, 0.2);
+              box-shadow: 0 0 12px 0px rgba(128, 128, 128, 0.2);
+      position: relative;
+      padding: 37rpx 33rpx;
+      font-size: 12px;
+      color: #878C9E;
+      margin-bottom: 32rpx;
+}
+.homework-box .homework-list .homework-li .title {
+        height: 35rpx;
+        font-size: 18px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #323643;
+        line-height: 42rpx;
+        display: block;
+}
+.homework-box .homework-list .homework-li .time {
+        display: block;
+        margin-top: 34rpx;
+}
+.homework-box .homework-list .homework-li .if-review {
+        float: right;
+        margin-top: -36rpx;
+        width: 120rpx;
+        height: 44rpx;
+        line-height: 44rpx;
+        font-size: 12px;
+        color: #fff;
+        background: -webkit-gradient(linear, left top, right top, from(#f9d423), to(#ff794a));
+        background: -o-linear-gradient(left, #f9d423 0%, #ff794a 100%);
+        background: linear-gradient(90deg, #f9d423 0%, #ff794a 100%);
+        background: #c6cbd4;
+        text-align: center;
+        border-radius: 20px;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.learn-page {
+  height: 100%;
+}
+.learn-page .head-tab {
+    overflow: hidden;
+    position: fixed;
+    z-index: 998;
+    top: 88rpx;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    padding: 20rpx 32rpx 0 32rpx;
+    overflow: hidden;
+}
+.learn-page .head-tab .tab {
+      float: left;
+      font-size: 14px;
+      min-width: 90rpx;
+      height: 58rpx;
+      color: #878C9E;
+      font-weight: 500;
+}
+.learn-page .head-tab .tab.current {
+        font-weight: bold;
+        border-bottom: 2px solid #FF794A;
+        color: #323643;
+}
+.learn-page .head-tab .wrong-topic-tools {
+      float: right;
+      overflow: hidden;
+}
+.learn-page .head-tab .wrong-topic-tools .icon {
+        display: block;
+        float: left;
+        width: 40rpx;
+        height: 40rpx;
+        margin-left: 60rpx;
+}
+.learn-page .head-tab .wrong-topic-tools .scan-icon {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAACtklEQVRYR+1YS4vTUBT+TsKkCvWxVHcKPlBBd/oDRrAuFWblpu0o+ECcMTLTusnGtoOZGRXqxnbqwpWgOx/g4Nqlgm9B3GhnKdphSCU5ko6xt5nW5lUM2OyS+51zv/MlOffej+C6CvrCXgLGAaQAbAeQaEOoTrCy02r2sTvOy31Jr6YYUhXgrQLeAOMTCE8YqOTVzBsxFzk3mnZPUZLLcwQ+A0DqPSHVc2p6mxdCbkxRr311kXNDLGbcXicnJyYnx1bswRZBm1wi2XgIYNTDxEs5NSMq4CFkFeKBoJPrmdFIpjRtrNkiWNSrZYDOepjpCxOdzl9KP/KAXQMpzNaOEXMVwJZ+8Qwq59X0eSrN3dnHlvUSgCwEfWTQdFMZWdQunPzeL1mYce3m3Y1K8+cogUsAdgq5TJKkA1Sarc0z88X2AH8wZOmQNpH+FmZiv7HafG1zwuTnAHY7sUR0nYr6wlsAe5yHDDqRV9MP/E4QBb6g144T+L6Q651N0ACgOA8NRdk06Nfaq5iZmeoGSybxk2raBFkMyKmZP60nClX85nDzGRL8HxTsWH4CrxJ+leqFd602SyR0dzPMKhEVQTeff/rHeilqSNCLSn/DxF/BHrvcsIVHEL+6eycfm8gIJvWbguoxJ4iOPth3l+u3/pD41u49/j9JyCoHHj5UMKzE1O6D9iE5uGsQlogT7+bjajPBXYOoCHb25VYfHJ5JfIk7PDT5kqsLuJuCsTm4a+VyMrGy/ofAuxF36+N1F/MI7w2ZDsfBPAJwg65eq+yXSHrRzX6TTevp1FRWlDzsJ7Ym3vZjTFk6QrCKAO0SAKbF1kGfBuZAPOoeRfOtnJo9F8ACDr7a+Ni9d1rAdgneTXQEdh88EOxuoosa/7aETwE4CmAHgBFhfBAe9TKAzwAWLbYqVy6PvxL5/AKY3nWcWzc+1AAAAABJRU5ErkJggg==);
+        background-size: 40rpx 40rpx;
+}
+.learn-page .head-tab .wrong-topic-tools .delete-icon {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAC7ElEQVRYR+1YTUgUYRh+3lldDUfqmHbrUEEevGX3goxOBUIQxM72Hy1pEzraYQ7prrQqFUaR69YpCOrUHxRds5uBEdGli67HqFlkzZk3xhj73B33m9lVEdq5fs/7Ps883/v9vYSAn2k+jUabrAtEOAmgDYAaMNSDWQBmmPFkMa/eN82uxSDxFAR0c/TxrjrHfsFAexC8DEPA9JISOXaj5/RsAGx5iOtco2p9XC9xAtunpqh1IJFIFMopkDqYSmevMPiO7E8rGSdQok+P3a1KYDI9+QFAx0oS5jdO3ZI20H0+F0bU4NiDFmWpbhJER4S4KUPXDlYr0J2CqJfEifxuDSvOi10WadfPCYIKhq41ViuQxQSGrknLohxhMj0ZKp+ULGxC2bSHzUepdKaToWQAbpEl39xxyhGcOCXT2bmtJ86zgnJbXCDmaWgke5SYMwB2bu4UStlmmehcySIJW8RSGglAxlcTKHP4/3Tw394JuHtVnx5/7edUENyGOLh676Scocda/QQGwW2QwGDnqYzc/SkZpqJVLEvquRkEJ8PUBMquajUHXYfWusTK3KktEq++ag6KK2096qa2D1a7d20BB1c9tOYNXfN9ERY9yHxxspKq6KgT3jG2+27ovxZ75XebCYKrROCqVkchGt1uJk79lN2MKxk3x8fVhoVtv4RYy9C1ZjGXn4NfAOzzQAw60a/HnlciQBYzlM4eJ/AzAffZ0DW3ObrylQhMjWTHmPmqgPlaiFCH2R37ISMMM26OZXc02DwFYK8Qd9vQNZEbJQIHb020KaRMA4gIgd8Y1Bexnbe9vXFxSsJoWsYOD2ea7YhymOAkAdojJLAddtoHrp+ZKevg3wM8Mw7QpdDsVQXwPUOPXy5O4dvdctu+Dar1EsChqjiDB78vWGqnX2N9zfbbcldfzY8S+CIAJThXKKTDjIeNEbW7p6drwS9S2h9MjT7az45zFoDbut0NoD6UhFJwHsB3AO8cdiaKa64Y/gdhbAltr3a5VwAAAABJRU5ErkJggg==);
+        background-size: 40rpx 40rpx;
+}
+.learn-page .head-tab .wrong-topic-tools .download-icon {
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAADM0lEQVRYR+2YS2gTURSG/zOxiUJ8LK07BR+ooDsf6wqtuPJRBd0kqYoPxKYT2kk3s2mT0jRVIYLYJC4UtFBXPgoWl+pSwbcgbjQuRVtKojNHJumkk2liZpIZ6SLZzb3n8c099/65cwim33Ais52AHgBdADYC8C2aUI6ghgbE0GOzn5XneCLdxRDSALcb7PNgfAZhmoGJqBh8a4xF+oMsT3q9/rkkgc8BEGonpJwkBjZYATLbxBLZbyY4s4nKjJsrPf7ecLh7XpssAmpwPv/sQwAdFhJ/l8SgcQUsuJRMLADqsZ7mZ/1dstxdKALGEukUQOctZPrKRGeifYFHFmyXmAyPZQ8ScxrA+nr+DEpFxcBFiidv7WBVfQXAY3D6xKCBgrdtRr506me9YM3My9dur/EWfncQOA5gsyGWQoKwi+Jj2XFmvrw4wR/zHmGP3Bv40Uxiu77yeHadT+EXALbqvkR0hWKJzDsA2/RBBh2JioH7dhM4YT+cyB4m8JQh1nsNMA/Aqw/mvd61bpe11suMjKRXqx4ybqmCBshGB0kMlqXHzqosapwmDY1rpZnHMcBKCWlGKysXzEFAZyrh4gq2AEtHotFD4tRha5VYlyanKtE6xXbEvnSzaumgs2pgew8Ojd9oJ2VFkpjaiXhE/z6pJTPF/2imfibOsedPeLD3bO5fZW+6xLFEZhLAsYUkCggnpb7gvWqAsbHMcTDulC/DTFNSJHDUbcBnAPYZb74aJBh3KxITTlTAlSafS2Jwv7uAyWwnVH5g+kRQTM8ag3lMgUCHpHBg2lXAohSYS1dfS8pboZ5p03tQT2AD0jKc4zpoAdIWnOOAdcptG84VQAPkklOsyU+9PWeed2wPmgPHRzOjTAhr48RIDkSCEbtwrq1gIyC1fFxbQacgqwEumw93OZXy++ZX/TK87Oxyb328qdI8woe8h/Yuh+YRgKs0NDqxUyDhZbX2m0dRn/T3h4xL7tRWK8fR+jGKRzhAUGMAbTFeQlRWd9ttYDoOWDsgX5fE0IVGWsD/A7KyBaxltN5Ed5WvehPdmHKhJXwaQCeATQDaXEUC5gB8ATCjsjoxGOl5bcz3F14KFV8j/BAiAAAAAElFTkSuQmCC);
+        background-size: 40rpx 40rpx;
+}
+.learn-page .tab-content {
+    height: 100%;
+    padding-top: 88rpx;
+}
+

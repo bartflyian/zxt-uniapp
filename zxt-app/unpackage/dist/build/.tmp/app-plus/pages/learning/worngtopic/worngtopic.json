@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wrongtest": "/components/wrong_test/wrong_test"
+  },
+  "component": true
+}

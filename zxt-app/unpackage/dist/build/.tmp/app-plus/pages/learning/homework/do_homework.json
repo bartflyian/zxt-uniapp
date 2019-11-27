@@ -1,0 +1,8 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "answerinput": "/components/homework_answer_input/index",
+    "subquestionswiper": "/components/homework_subquestion_swiper/index",
+    "button": "/components/button/button"
+  }
+}
