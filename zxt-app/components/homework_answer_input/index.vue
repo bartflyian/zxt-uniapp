@@ -32,7 +32,7 @@
 			</view>
 			<view class="line-block">
 				<text class="title">【老师评语】:</text>
-				<text class="content"> 
+				<text class="content">
 				看清楚题目 </text>
 			</view>
 			<view class="line-block">
