@@ -132,7 +132,7 @@
 			computedOptionNum(index) {  //返回大写选项号
 				return String.fromCharCode(64 + parseInt(index+1));
 			},
-			computedOptionIndex(word){	//放回字母对应序号
+			computedOptionIndex(word){	//返回字母对应序号
 				return word.toUpperCase().charCodeAt()-65;
 			}
 		},

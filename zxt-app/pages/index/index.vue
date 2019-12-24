@@ -144,7 +144,7 @@
 			background: rgba(255,255,255,.6);
 		}
 	}
-	page{
+	page{ 
 		.cate-section{
 			position:relative;
 			z-index:5;
@@ -179,7 +179,7 @@
 	
 	
 	page {
-		background: #f5f5f5;
+		background: #f5f5f5;  
 	}
 	.m-t{
 		margin-top: 16upx;
