@@ -42,6 +42,10 @@
 			Homework,
 			Worntopic
 		},
+		onShow: function () {
+			let localCurrent = uni.getStorageSync('learnPage_current');
+			this.currentThis( localCurrent == "" ? 0 : localCurrent);
+		},
 		onReachBottom () {
 			if(this.currentIndex == 1) {
 				this.loadMoreHomeWork = !this.loadMoreHomeWork;

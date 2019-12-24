@@ -11,7 +11,6 @@
 .course .subscribe .subs-li {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     margin-bottom: 32rpx;
 }

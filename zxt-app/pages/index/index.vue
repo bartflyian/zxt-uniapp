@@ -22,19 +22,19 @@
 		<!-- 分类入口 -->
 		<view class="quick-way-enter">
 			<view class="qw-li">
-				<view class="qw-area">
+				<view class="qw-area" @click="gotoSubscribe()">
 					<view class="qw-icon subscribe-icon"></view>
 					<text class="qw-title">订阅</text>
 				</view> 
 			</view>
 			<view class="qw-li">
-				<view class="qw-area">
+				<view class="qw-area" @click="gotoHomework()">
 					<view class="qw-icon homework-icon"></view>
 					<text class="qw-title">作业</text>
 				</view>  
 			</view>
 			<view class="qw-li">
-				<view class="qw-area">
+				<view class="qw-area" @click="gotoWrongtest()">
 					<view class="qw-icon wrongtopic-icon"></view>
 					<text class="qw-title">错题</text>
 				</view>  
@@ -86,15 +86,24 @@
 				this.swiperCurrent = index;
 				this.titleNViewBackground = this.carouselList[index].background;
 			},
-			//详情页
-			navToDetailPage(item) {
-				//测试数据没有写id，用title代替
-				return;
-				let id = item.title;
-				uni.navigateTo({
-					url: `/pages/product/product?id=${id}`
-				})
+			gotoSubscribe () {
+				uni.setStorageSync('learnPage_current', 0);
+				uni.switchTab({ 
+				    url: '/pages/learning/index'
+				});
 			},
+			gotoHomework () {
+				uni.setStorageSync('learnPage_current', 1);
+				uni.switchTab({ 
+				    url: '/pages/learning/index'
+				});
+			},
+			gotoWrongtest () {
+				uni.setStorageSync('learnPage_current', 2);
+				uni.switchTab({ 
+				    url: '/pages/learning/index'
+				});
+			}
 		},
 		// #ifndef MP
 		// 标题栏input搜索框点击
@@ -184,6 +193,11 @@
 	.m-t{
 		margin-top: 16upx;
 	}
+	
+	.container {
+		padding-bottom: 80rpx;
+	}
+	
 	/* 头部 轮播图 */
 	.carousel-section {
 		position: relative; 

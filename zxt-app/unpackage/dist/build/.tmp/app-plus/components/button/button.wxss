@@ -9,8 +9,7 @@
   margin: 0 auto;
   width: 90%;
   height: 100rpx;
-  background: -webkit-gradient(linear, left top, right top, from(#f9d423), to(#ff794a));
-  background: -o-linear-gradient(left, #f9d423 0%, #ff794a 100%);
+  background: -webkit-linear-gradient(left, #f9d423 0%, #ff794a 100%);
   background: linear-gradient(90deg, #f9d423 0%, #ff794a 100%);
   border-radius: 50rpx;
   font-size: 16px;

@@ -49,7 +49,6 @@
 }
 .homework-box .navTitle .nav .title.current::before {
             -webkit-transform: rotate(180deg);
-                -ms-transform: rotate(180deg);
                     transform: rotate(180deg);
             top: 0;
             border-color: #FF7800 transparent transparent transparent;
@@ -82,7 +81,6 @@
       z-index: 1000;
       display: -webkit-box;
       display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
       padding: 20rpx 32rpx;
       font-size: 12px;
@@ -90,13 +88,11 @@
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -webkit-flex-flow: row wrap;
-          -ms-flex-flow: row wrap;
               flex-flow: row wrap;
 }
 .homework-box .select-box .select-tab .btn {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 20%;
-            -ms-flex: 0 0 20%;
                 flex: 0 0 20%;
         text-align: center;
         margin-bottom: 30rpx;
@@ -109,8 +105,7 @@
 }
 .homework-box .select-box .select-tab .btn.is-select .subject-btn, .homework-box .select-box .select-tab .btn.is-select .process-btn {
           color: #fff;
-          background: -webkit-gradient(linear, left top, right top, from(#f9d423), to(#ff794a));
-          background: -o-linear-gradient(left, #f9d423 0%, #ff794a 100%);
+          background: -webkit-linear-gradient(left, #f9d423 0%, #ff794a 100%);
           background: linear-gradient(90deg, #f9d423 0%, #ff794a 100%);
           border-radius: 30px;
 }
@@ -124,8 +119,7 @@
       width: 100%;
       border-radius: 12px;
       height: 185rpx;
-      -webkit-box-shadow: 0 0 12px 0px rgba(128, 128, 128, 0.2);
-              box-shadow: 0 0 12px 0px rgba(128, 128, 128, 0.2);
+      box-shadow: 0 0 12px 0px rgba(128, 128, 128, 0.2);
       position: relative;
       padding: 37rpx 33rpx;
       font-size: 12px;
@@ -153,8 +147,7 @@
         line-height: 44rpx;
         font-size: 12px;
         color: #fff;
-        background: -webkit-gradient(linear, left top, right top, from(#f9d423), to(#ff794a));
-        background: -o-linear-gradient(left, #f9d423 0%, #ff794a 100%);
+        background: -webkit-linear-gradient(left, #f9d423 0%, #ff794a 100%);
         background: linear-gradient(90deg, #f9d423 0%, #ff794a 100%);
         background: #c6cbd4;
         text-align: center;

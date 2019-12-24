@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/product/product",
     "pages/set/set",
     "pages/userinfo/userinfo",
     "pages/cart/cart",
@@ -9,17 +8,8 @@
     "pages/learning/index",
     "pages/public/login",
     "pages/user/user",
-    "pages/detail/detail",
-    "pages/order/order",
-    "pages/money/money",
-    "pages/order/createOrder",
-    "pages/address/address",
-    "pages/address/addressManage",
-    "pages/money/pay",
-    "pages/money/paySuccess",
     "pages/notice/notice",
     "pages/category/category",
-    "pages/product/list",
     "pages/learning/homework/homework",
     "pages/learning/homework/do_homework",
     "pages/learning/homework/homework_no_review",
@@ -70,13 +60,13 @@
       }
     ]
   },
-  "nvueCompiler": "weex",
+  "nvueCompiler": "uni-app",
   "renderer": "auto",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "mix-mall 电商项目模版",
-  "compilerVersion": "2.3.3",
+  "appname": "智学堂",
+  "compilerVersion": "2.4.6",
   "usingComponents": {}
 }

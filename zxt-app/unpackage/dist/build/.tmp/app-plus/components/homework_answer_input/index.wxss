@@ -14,12 +14,10 @@
 .answer-input .options .option {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
 }
 .answer-input .options .option .option-num {
       -webkit-flex-basis: 72rpx;
-          -ms-flex-preferred-size: 72rpx;
               flex-basis: 72rpx;
       height: 72rpx;
       background: white;
@@ -32,7 +30,6 @@
 .answer-input .options .option .option-answer {
       -webkit-box-flex: 1;
       -webkit-flex: 1;
-          -ms-flex: 1;
               flex: 1;
       line-height: 20px;
       margin-top: 6px;

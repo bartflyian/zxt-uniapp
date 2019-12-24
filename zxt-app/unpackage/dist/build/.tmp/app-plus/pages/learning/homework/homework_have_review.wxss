@@ -14,12 +14,10 @@
 .answer-input .options .option {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
 }
 .answer-input .options .option .option-num {
       -webkit-flex-basis: 72rpx;
-          -ms-flex-preferred-size: 72rpx;
               flex-basis: 72rpx;
       height: 72rpx;
       background: white;
@@ -32,7 +30,6 @@
 .answer-input .options .option .option-answer {
       -webkit-box-flex: 1;
       -webkit-flex: 1;
-          -ms-flex: 1;
               flex: 1;
       line-height: 20px;
       margin-top: 6px;
@@ -136,12 +133,10 @@
 .do-homework {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
   font-family: PingFang SC;
@@ -151,7 +146,6 @@
 }
 .do-homework .homework-head {
     -webkit-flex-basis: 88rpx;
-        -ms-flex-preferred-size: 88rpx;
             flex-basis: 88rpx;
     height: 88rpx;
     line-height: 88rpx;
@@ -189,7 +183,6 @@
 .do-homework .homework-content {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
-        -ms-flex: 1;
             flex: 1;
     padding: 40rpx 0;
 }
@@ -306,7 +299,6 @@
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       border-radius: 30rpx;
 }
