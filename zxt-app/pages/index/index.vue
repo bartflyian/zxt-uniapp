@@ -66,11 +66,7 @@
 		onLoad() {
 			this.loadData();
 		},
-		methods: {
-			/**
-			 * 请求静态数据只是为了代码不那么乱
-			 * 分次请求未作整合
-			 */
+		methods: { 
 			async loadData() {
 				let carouselList = await this.$api.json('carouselList');
 				this.titleNViewBackground = carouselList[0].background;
@@ -85,7 +81,7 @@
 				const index = e.detail.current;
 				this.swiperCurrent = index;
 				this.titleNViewBackground = this.carouselList[index].background;
-			},
+		},
 			gotoSubscribe () {
 				uni.setStorageSync('learnPage_current', 0);
 				uni.switchTab({ 
